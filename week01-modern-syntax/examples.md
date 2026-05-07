@@ -1,64 +1,34 @@
-\# Modern ABAP Syntax Examples
+# Modern ABAP Syntax Examples
 
-
-
-\## Inline Declaration
-
-
+## Inline Declaration
 
 ```abap
+DATA(lv_matnr) = 'MAT001'.
+```
 
-DATA(lv\_matnr) = 'MAT001'.
+## VALUE
 
-
-
-DATA(ls\_mara) = VALUE mara(
-
-&#x20; matnr = 'MAT001'
-
-&#x20; mtart = 'FERT'
-
+```abap
+DATA(ls_mara) = VALUE mara(
+  matnr = 'MAT001'
+  mtart = 'FERT'
 ).
+```
 
+## COND
 
+```abap
+DATA(lv_status) =
+  COND string(
+    WHEN lv_qty = 0 THEN 'SEM STOCK'
+    ELSE 'OK'
+  ).
+```
 
+## Table Expression
 
-
-DATA(lv\_status) =
-
-&#x20; COND string(
-
-&#x20;   WHEN lv\_qty = 0 THEN 'SEM STOCK'
-
-&#x20;   ELSE 'OK'
-
-&#x20; ).
-
-
-
-DATA(ls\_mara) = lt\_mara\[
-
-&#x20; matnr = lv\_matnr
-
+```abap
+DATA(ls_mara) = lt_mara[
+  matnr = lv_matnr
 ].
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
