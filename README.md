@@ -1,2 +1,34 @@
-# sap-modern-abap-training
-Modern SAP ABAP learning journey: ADT, CDS, Open SQL, Clean ABAP, APIs and RAP concepts.
+\# SAP Modern ABAP Training
+
+
+
+Personal learning journey to modernize SAP ABAP skills.
+
+
+
+\## Topics
+
+
+
+\- Modern ABAP syntax
+
+\- Open SQL
+
+\- CDS Views
+
+\- Clean ABAP
+
+\- OData
+
+\- RAP concepts
+
+\- SAP BTP mindset
+
+
+
+\## Goal
+
+
+
+Build a practical portfolio showing modern SAP ABAP development skills.
+
